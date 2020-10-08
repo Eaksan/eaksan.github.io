@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="New reviews">
+    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +101,7 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="30573000" />
+      <workItem from="1602069465652" duration="32761000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602144695254</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New reviews carousel">
+      <created>1602151341213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602151341213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,13 +200,14 @@
     <MESSAGE value="New developer icon" />
     <MESSAGE value="Head carousel color" />
     <MESSAGE value="App-info to svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="App-info to svg" />
+    <MESSAGE value="New reviews carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="New reviews carousel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602150226768">
+    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602151341066">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602150226768" />
+    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602151341066" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602147539812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -219,10 +224,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602144697275">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602151343130">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602144697275" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602151343130" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1602143494531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

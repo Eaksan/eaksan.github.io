@@ -10,6 +10,10 @@ body
 	overflow-x: hidden
 	background-color: $color-bg
 
+	@media (prefers-color-scheme: dark)
+		background-color: #000
+		color: #fff
+
 ::-webkit-scrollbar
 	display: none
 
@@ -62,13 +66,16 @@ a
 
 		&--box
 			padding-bottom: 33px
-			border-bottom: 1px solid #f0f0f0
+			border-bottom: 1px solid #1A1A1A
 
 		&--header
 			color: #1a1a1a
 			font-weight: 700
 			font-size: 21px
 			letter-spacing: .4px
+
+			@media (prefers-color-scheme: dark)
+				color: #fefefe
 
 	&-eclipses
 		white-space: nowrap
@@ -115,6 +122,11 @@ a
 				width: 30px
 				background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff)
 
+			@media (prefers-color-scheme: dark)
+				background-color: #000
+
+				&:before
+					background: linear-gradient(90deg,hsla(0,0%,100%,0),#000)
 		&.opening
 			overflow: hidden
 
@@ -152,6 +164,9 @@ a
 			white-space: pre-line
 			display: table
 			letter-spacing: .2px
+
+			@media (prefers-color-scheme: dark)
+				color: #fbfbfb
 
 		&--subheader
 			color: $color-gray
@@ -322,10 +337,6 @@ a
 	padding-top: 7px
 
 	&__header
-		color: #1a1a1a
-		font-weight: 700
-		font-size: 21px
-		letter-spacing: .4px
 
 	&__version
 		display: flex
@@ -342,10 +353,6 @@ a
 
 .appstore-screenshots
 	&__header
-		color: #1a1a1a
-		font-weight: 700
-		font-size: 20px
-		letter-spacing: .4px
 
 	&__gallery
 		margin: 0 -20px
@@ -410,6 +417,9 @@ a
 			color: #4a4a4e
 			font-family: SF Pro rounded, sans-serif
 
+			@media (prefers-color-scheme: dark)
+				color: #ebebf6
+
 		&--right
 			flex-basis: calc(100% - 120px)
 			margin-left: 20px
@@ -422,7 +432,7 @@ a
 			font-weight: 700
 			line-height: 1.2
 
-		&--description
+		&--gription
 			font-weight: 700
 			margin-top: -12px
 			color: $color-gray
@@ -439,6 +449,9 @@ a
 		text-align: right
 		letter-spacing: 0.4px
 
+		@media (prefers-color-scheme: dark)
+			color: #8a8a8c
+
 .appstore-rating
 	&__stars
 		flex-basis: 57px
@@ -448,6 +461,9 @@ a
 		letter-spacing: -0.6px
 		line-height: 1.1em
 		color: #8a8a8e
+
+		@media (prefers-color-scheme: dark)
+			color: #272727
 
 		&--row
 			height: 8px
@@ -469,11 +485,20 @@ a
 			background-color: $color-gray
 			height: 100%
 
+		@media (prefers-color-scheme: dark)
+			background-color: #2c2d2e
+
+			&--line
+				background-color: #9f9ea4
+
 .appstore-review
 	background-color: #f2f2f7
 	border-radius: 8px
 	padding: 15px 20px
-	width: calc(100vw - 40px)
+	max-width: calc(100vw - 40px)
+
+	@media (prefers-color-scheme: dark)
+		background-color: #1c1d1f
 
 	&__header
 		display: flex
@@ -488,6 +513,9 @@ a
 			color: #1a1a1a
 			flex-basis: 100%
 			max-width: 100%
+
+			@media (prefers-color-scheme: dark)
+				color: #fdfdfe
 
 		&--edited
 			flex-basis: 90px
@@ -513,6 +541,12 @@ a
 		&:before
 			background: linear-gradient(90deg,hsla(0,0%,100%,0),#f2f2f7)
 
+		@media (prefers-color-scheme: dark)
+			background-color: #1c1d1f
+
+			&:before
+				background: linear-gradient(90deg,hsla(0,0%,100%,0),#1c1d1f)
+
 .appstore-information
 	border: none
 	padding-bottom: 10px
@@ -526,6 +560,9 @@ a
 		border-bottom: 1px solid #e2e2e3
 		padding: 13px 0 12px
 
+		@media (prefers-color-scheme: dark)
+			border-bottom: 1px solid #1c1c1c
+
 		&:last-child
 			border: none
 
@@ -533,10 +570,16 @@ a
 			font-size: 16px
 			color: #a1a1a4
 
+			@media (prefers-color-scheme: dark)
+				color: #79797a
+
 		&--value
 			font-size: 16px
 			text-align: right
 			color: #050505
+
+			@media (prefers-color-scheme: dark)
+				color: #eaeaea
 
 
 @import "media" // Always at the end

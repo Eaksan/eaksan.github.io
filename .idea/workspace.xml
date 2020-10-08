@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/js/common.modules.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="24312000" />
+      <workItem from="1602069465652" duration="25905000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -98,7 +97,35 @@
       <option name="project" value="LOCAL" />
       <updated>1602118071465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Loona css">
+      <created>1602118115295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602118115295</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove fonts injection">
+      <created>1602118207338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602118207338</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change gray colors">
+      <created>1602141731000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602141731000</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add rounded font">
+      <created>1602142735803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602142735803</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +134,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loona ready" />
     <MESSAGE value="Loona minified scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loona minified scripts" />
+    <MESSAGE value="Loona css" />
+    <MESSAGE value="Remove fonts injection" />
+    <MESSAGE value="Change gray colors" />
+    <MESSAGE value="Add rounded font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add rounded font" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602118071324">
+    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602142735582">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602118071324" />
+    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602142735582" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602118018789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -130,17 +161,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018788" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602118073195">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602142737510">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602118073195" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602142737510" />
     <state x="662" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602117316968">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="662" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602117316968" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1602114664139">
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1602142705868">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602114664139" />
+    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602142705868" />
   </component>
 </project>

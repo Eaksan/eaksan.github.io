@@ -1,0 +1,507 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+body
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.4
+	font-family: $default-font
+	overflow-x: hidden
+	background-color: $color-bg
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+.text-active
+	color: $color-active !important
+
+b, strong
+	font-weight: bold
+
+a
+	&:hover
+		text-decoration: none
+
+.svg-icon
+	&, & svg
+		display: inline-block
+
+	svg
+		height: 1em
+		font-size: 1em
+		overflow: visible
+		vertical-align: -.125em
+		width: 1em
+
+.appstore
+	&-main
+		max-width: 450px
+		margin: 0 auto
+
+	&__section
+		padding: 10px 20px 0
+
+		&--box
+			padding-bottom: 33px
+			border-bottom: 1px solid $color-gray
+
+		&--header
+			color: #1a1a1a
+			font-weight: 700
+			font-size: 21px
+			letter-spacing: .4px
+
+	&-eclipses
+		white-space: nowrap
+		overflow: hidden
+		text-overflow: ellipsis
+
+	&-row
+		display: flex
+
+	&-section-text
+		line-height: 1.43
+		overflow: auto
+		position: relative
+		max-height: 200em
+		white-space: pre-line
+		transition: 0.3s
+
+		&--show-more
+			max-height: 4.29em
+			overflow: hidden
+
+			.appstore-section-text--more-btn
+				visibility: visible
+				opacity: 1
+
+		&--more-btn
+			position: absolute
+			bottom: 0
+			right: 0
+			color: $color-active
+			padding-left: 10px
+			background-color: $color-bg
+			transition: 0.2s
+			visibility: hidden
+			opacity: 0
+
+			&:before
+				content: ""
+				display: block
+				position: absolute
+				left: -30px
+				top: 0
+				bottom: 0
+				width: 30px
+				background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff)
+
+		&.opening
+			overflow: hidden
+
+.appstore-head
+	padding: 20px 20px 0
+
+	&__icon
+		max-width: 118px
+		flex-basis: 118px
+
+		img
+			border-radius: 22%
+
+	&__column
+		flex-basis: calc(100% - 118px)
+		max-width: calc(100% - 118px)
+
+	&__info
+		min-height: 90px
+		padding: 0 16px 9px
+
+		&--name
+			color: #1a1a1a
+			font-weight: 500
+			font-size: 21px
+			line-height: 1.2
+			white-space: pre-line
+			display: table
+			letter-spacing: .2px
+
+		&--subheader
+			color: $color-gray
+			line-height: 1.2
+			position: relative
+			margin-top: 5px
+			letter-spacing: .5px
+
+	&__operation
+		display: flex
+		padding-left: 16px
+		padding-right: 16px
+		height: 28px
+		margin-bottom: 20px
+
+		&--button
+			background: $color-active
+			border-radius: 28px
+			color: #fff
+			display: inline-block
+			font-size: 15px
+			font-weight: 500
+			padding: 0 8px
+			position: relative
+			text-decoration: none
+			text-transform: uppercase
+			text-align: center
+			height: 28px
+			line-height: 28px
+			min-width: 70px
+			vertical-align: top
+
+		&--purchase
+			color: $color-gray
+			font-size: 8px
+			line-height: 10px
+			height: 20px
+			white-space: normal
+			font-weight: 400
+			vertical-align: middle
+			opacity: 1
+			transition: opacity .2s ease-in-out
+			letter-spacing: .4px
+			text-align: initial
+			max-width: 60px
+			padding-top: 4px
+			margin-left: 8px
+			display: table
+
+	&-fixed
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		opacity: 0
+		transform: translateY(-100%)
+		transition: 0.3s
+		display: flex
+		background-color: #ffffff
+		border-bottom: 1px solid $color-gray
+		z-index: 50
+		padding: 7px
+		justify-content: space-between
+		align-items: center
+
+		&.open
+			transform: none
+			opacity: 1
+
+		&__placeholder, &__operations
+			width: 40%
+
+		&__placeholder
+			font-size: 13px
+
+			&--text
+				display: flex
+				align-items: center
+
+			.svg-icon
+				font-size: 20px
+
+		&__icon
+			width: 30px
+			overflow: hidden
+			border-radius: 22%
+
+		&__operations
+			text-align: right
+			display: flex
+			align-items: center
+			justify-content: flex-end
+
+			&--purchases
+				font-size: 8px
+				line-height: 10px
+				color: $color-gray
+				margin-right: 8px
+
+			&--button
+				background: $color-active
+				border-radius: 28px
+				color: #fff
+				display: inline-block
+				font-size: 15px
+				font-weight: 500
+				padding: 0 8px
+				position: relative
+				text-decoration: none
+				text-transform: uppercase
+				text-align: center
+				height: 28px
+				line-height: 28px
+				min-width: 70px
+				vertical-align: top
+
+				&:hover
+					color: #fff
+
+
+	&__rate
+		color: $color-gray
+		margin: 0 -20px
+
+		&--wrapper
+			margin: 0 20px
+
+		&--slide
+			border-top: 1px solid $color-gray
+			border-bottom: 1px solid $color-gray
+			width: 107px
+
+			&:last-child
+				.appstore-head__rate--box:after
+					content: none
+
+		&--box
+			text-align: center
+			padding: 10px
+			position: relative
+
+			&:after
+				position: absolute
+				content: ''
+				height: 40px
+				width: 1px
+				background-color: $color-gray
+				right: 0
+				top: 50%
+				transform: translateY(-50%)
+
+			&-top
+				font-size: 11px
+				font-weight: 500
+				text-transform: uppercase
+
+			&-center
+				padding-top: 5px
+				font-size: 25px
+				font-weight: bold
+				text-transform: uppercase
+
+			&-bottom
+				font-size: 12px
+
+.appstore-whats-new
+	padding-top: 7px
+
+	&__header
+		color: #1a1a1a
+		font-weight: 700
+		font-size: 21px
+		letter-spacing: .4px
+
+	&__version
+		display: flex
+		justify-content: space-between
+		margin-top: 8px
+		color: $color-gray
+
+		&--main
+			font-size: 15px
+			letter-spacing: .4px
+
+	&__text
+		margin-top: 10px
+
+.appstore-screenshots
+	&__header
+		color: #1a1a1a
+		font-weight: 700
+		font-size: 20px
+		letter-spacing: .4px
+
+	&__gallery
+		margin: 0 -20px
+		padding-top: 10px
+		opacity: 0
+		transition: 0.2s opacity
+
+		&.swiper-container-initialized
+			opacity: 1
+
+		&--wrapper
+			margin: 0 0 0 20px
+
+		&--slide
+			width: auto
+			max-width: 246px
+
+			img
+				border-radius: 22px
+
+			&:last-child
+				margin-right: 0 !important
+
+.appstore-offers
+	margin-top: 22px
+	display: flex
+	align-items: center
+	color: $color-gray
+
+	&__badge
+		display: inline-block
+		font-size: 17px
+
+	&__text
+		margin-left: 8px
+
+.appstore-short-description
+	&__developer
+		margin-top: 25px
+
+		&--name
+			color: $color-active
+			font-size: 15px
+
+		&--status
+			color: #a7a7aa
+
+.appstore-reviews
+	&__rating
+		display: flex
+
+		&--left
+			flex-basis: 100px
+			text-align: center
+			color: #4a4a4e
+			font-family: SF Pro rounded, sans-serif
+
+		&--right
+			flex-basis: calc(100% - 120px)
+			margin-left: 20px
+			display: flex
+			flex-wrap: wrap
+			padding-top: 17px
+
+		&--number
+			font-size: 60px
+			font-weight: 700
+			line-height: 1.2
+
+		&--description
+			font-weight: 700
+			margin-top: -12px
+			color: $color-gray
+
+.appstore-rating
+	&__charts-description
+		flex-basis: 100%
+		text-align: right
+		letter-spacing: 0.4px
+
+.appstore-rating
+	&__stars
+		flex-basis: 57px
+		max-width: 57px
+		font-size: 7px
+		text-align: right
+		letter-spacing: -0.6px
+		line-height: 1.1em
+		color: #8a8a8e
+
+		&--row
+			height: 8px
+
+	&__charts
+		flex-basis: calc(100% - 57px)
+		max-width: calc(100% - 57px)
+		padding-left: 10px
+
+	&__chart
+		width: 100%
+		height: 4px
+		border-radius: 3px
+		background-color: #e4e4e6
+		margin: 2px 0 4px
+		overflow: hidden
+
+		&--line
+			background-color: $color-gray
+			height: 100%
+
+.appstore-review
+	background-color: #f2f2f7
+	border-radius: 8px
+	padding: 15px 20px
+
+	&__header
+		display: flex
+		flex-wrap: wrap
+		letter-spacing: 0.4px
+		justify-content: space-between
+		margin-bottom: 10px
+	
+	&__item
+		&--header
+			font-weight: 700
+			color: #1a1a1a
+			flex-basis: calc(100% - 90px)
+			max-width: calc(100% - 90px)
+
+		&--edited
+			flex-basis: 90px
+			max-width: 90px
+			padding-left: 5px
+			text-align: right
+			color: $color-gray
+
+		&--stars
+			font-size: 15px
+			letter-spacing: -5px
+			padding-top: 2px
+
+		&--user
+			padding-top: 4px
+
+	&__text
+		margin-bottom: 18px
+
+	.appstore-section-text--more-btn
+		background-color: #f2f2f7
+
+		&:before
+			background: linear-gradient(90deg,hsla(0,0%,100%,0),#f2f2f7)
+
+.appstore-information
+	border: none
+	padding-bottom: 10px
+
+	&__wrapper
+		margin-top: 10px
+
+	&__item
+		display: flex
+		justify-content: space-between
+		border-bottom: 1px solid #e2e2e3
+		padding: 13px 0 12px
+
+		&:last-child
+			border: none
+
+		&--name
+			font-size: 16px
+			color: #a1a1a4
+
+		&--value
+			font-size: 16px
+			text-align: right
+			color: #050505
+
+
+@import "media" // Always at the end

@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/loona.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoBold/RobotoBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/RobotoRegular/RobotoRegular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/512x512bb.preview_124x124.progressive_yes.format_jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/512x512bb.preview_186x186.progressive_yes.format_jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/512x512bb.preview_236x236.progressive_yes.format_jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/512x512bb.preview_354x354.progressive_yes.format_jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/512x512bb.preview_512x512.progressive_yes.format_jpeg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_1_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_1_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_1_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_1_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_2_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_2_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_2_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_2_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_3_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_3_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_3_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_3_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_4_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_4_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_4_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_4_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_5_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_5_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_5_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPad_5_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_1_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_1_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_1_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_1_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_2_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_2_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_2_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_2_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_3_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_3_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_3_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_3_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_4_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_4_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_4_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_4_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_5_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_5_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_5_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhone7_5_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_1_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_1_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_1_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_1_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_2_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_2_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_2_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_2_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_3_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_3_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_3_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_3_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_4_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_4_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_4_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_4_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_5_1120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_5_1887.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_5_376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/iPhoneX_5_633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/common.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/bundle/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/a11y/a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/autoplay/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/controller/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/breakpoints/getBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/breakpoints/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/breakpoints/setBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/check-overflow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/classes/addClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/classes/removeClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/core-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events-emitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onClick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onResize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onTouchEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onTouchMove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/events/onTouchStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/grab-cursor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/grab-cursor/setGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/grab-cursor/unsetGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/images/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/images/loadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/images/preloadImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/loop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/loop/loopCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/loop/loopDestroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/loop/loopFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/addSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/appendSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/prependSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/removeAllSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/manipulation/removeSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/modular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slidePrev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideReset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideToClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideToClosest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/slide/slideToLoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/transition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/transition/setTransition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/transition/transitionEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/transition/transitionStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/getTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/maxTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/minTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/setTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/translate/translateTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateActiveIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateAutoHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateSlidesClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateSlidesOffset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/core/update/updateSlidesProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/effect-coverflow/effect-coverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/effect-cube/effect-cube.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/effect-fade/effect-fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/effect-flip/effect-flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/hash-navigation/hash-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/history/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/keyboard/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/lazy/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/mousewheel/mousewheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/navigation/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/pagination/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/parallax/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/scrollbar/scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/thumbs/thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/virtual/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/components/zoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/modules/observer/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/modules/resize/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/get-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/use-isomorphic-layout-effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/react/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/svelte/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/utils/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/utils/get-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/utils/get-device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/utils/get-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/get-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/cjs/vue/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/a11y/a11y.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/a11y/a11y.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/a11y/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/autoplay/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/controller/controller.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/controller/controller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/controller/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-coverflow/effect-coverflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-coverflow/effect-coverflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-coverflow/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-cube/effect-cube.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-cube/effect-cube.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-cube/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-fade/effect-fade.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-fade/effect-fade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-fade/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-flip/effect-flip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-flip/effect-flip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/effect-flip/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/hash-navigation/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/history/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/keyboard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/lazy/lazy.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/lazy/lazy.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/lazy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/mousewheel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/navigation/navigation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/navigation/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/navigation/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/pagination/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/pagination/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/pagination/pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/parallax/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/scrollbar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/scrollbar/scrollbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/scrollbar/scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/thumbs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/thumbs/thumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/thumbs/thumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/virtual/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/zoom/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/zoom/zoom.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/components/zoom/zoom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/a11y/a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/autoplay/autoplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/controller/controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/breakpoints/getBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/breakpoints/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/breakpoints/setBreakpoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/check-overflow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/classes/addClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/classes/removeClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/core-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events-emitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onClick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onResize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onTouchEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onTouchMove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/events/onTouchStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/grab-cursor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/grab-cursor/setGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/grab-cursor/unsetGrabCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/images/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/images/loadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/images/preloadImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/loop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/loop/loopCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/loop/loopDestroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/loop/loopFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/addSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/appendSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/prependSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/removeAllSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/manipulation/removeSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/modular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slidePrev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideReset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideToClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideToClosest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/slide/slideToLoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/transition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/transition/setTransition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/transition/transitionEnd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/transition/transitionStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/getTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/maxTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/minTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/setTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/translate/translateTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateActiveIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateAutoHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateClickedSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateSlides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateSlidesClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateSlidesOffset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/core/update/updateSlidesProgress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/effect-coverflow/effect-coverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/effect-cube/effect-cube.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/effect-fade/effect-fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/effect-flip/effect-flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/hash-navigation/hash-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/history/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/keyboard/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/lazy/lazy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/mousewheel/mousewheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/navigation/navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/pagination/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/parallax/parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/scrollbar/scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/thumbs/thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/virtual/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/components/zoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/modules/observer/observer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/modules/resize/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/get-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/use-isomorphic-layout-effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/react/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/svelte/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/utils/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/utils/get-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/utils/get-device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/utils/get-support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/get-changed-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/get-children.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/get-params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/init-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/params-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/swiper-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/update-swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/esm/vue/virtual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/react/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/svelte/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.esm.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.esm.browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.esm.browser.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-react.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-react.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-react.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-svelte.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-svelte.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-vars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-vue.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper-vue.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/a11y.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/autoplay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/controller.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/effect-coverflow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/effect-cube.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/effect-fade.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/effect-flip.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/hash-navigation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/history.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/keyboard.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/lazy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/mousewheel.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/navigation.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/pagination.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/parallax.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/scrollbar.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/thumbs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/virtual.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/components/zoom.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/shared.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/swiper-class.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/swiper-events.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/types/swiper-options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/swiper/vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_navbar-align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_fonts.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_libs.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_mixins/_font-face.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/_vars.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_libs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_mixins/_font-face.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YyWClPK9RQJMecQTsMc2PEcTO5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="" />
+      <created>1583915188945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583915188945</updated>
+      <workItem from="1583915190530" duration="673000" />
+      <workItem from="1602013894100" duration="1945000" />
+      <workItem from="1602015860857" duration="14266000" />
+      <workItem from="1602069422899" duration="16000" />
+      <workItem from="1602069465652" duration="23483000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602070521494">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602070521494" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1602070521492">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602070521492" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1602070521491">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602070521491" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1602070521493">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602070521493" />
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1602114664139">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602114664139" />
+  </component>
+</project>

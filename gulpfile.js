@@ -40,6 +40,7 @@ gulp.task('styles', function() {
 // JS
 gulp.task('scripts', function() {
 	return gulp.src([
+		'node_modules/swiper/swiper-bundle.esm.browser.min.js',
 		'app/js/common.babel.js', // Always at the end
 	],{'allowEmpty': true})
 		.pipe(concat('scripts.min.js'))
@@ -52,10 +53,8 @@ gulp.task('scripts-babel', function() {
 		'app/js/common.js', // Always at the end
 	])
 		.pipe(concat('common.babel.js'))
-		// .pipe(babel({
-		// 	presets: ['@babel/env']
-		// }))
-		// .pipe(uglify()) // Mifify js (opt.)
+		.pipe(babel())
+		.pipe(uglify()) // Mifify js (opt.)
 		.pipe(gulp.dest('app/js'))
 });
 

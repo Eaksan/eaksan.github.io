@@ -313,11 +313,15 @@ a
 					opacity: 1
 
 			&.ios14
+				color: #C6C6C8
 				.appstore-head__rate--box-ios13
 					display: none
 
 				.appstore-head__rate--box-ios14
 					opacity: 1
+					
+				@media (prefers-color-scheme: dark)
+					color: #1B1B1B
 
 		&--box
 			text-align: center

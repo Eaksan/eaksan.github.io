@@ -49,7 +49,7 @@ a
 
 		&--box
 			padding-bottom: 33px
-			border-bottom: 1px solid $color-gray
+			border-bottom: 1px solid #f0f0f0
 
 		&--header
 			color: #1a1a1a
@@ -259,8 +259,8 @@ a
 			margin: 0 20px
 
 		&--slide
-			border-top: 1px solid $color-gray
-			border-bottom: 1px solid $color-gray
+			border-top: 1px solid #e2e2e3
+			border-bottom: 1px solid #e2e2e3
 			width: 107px
 
 			&:last-child
@@ -339,7 +339,11 @@ a
 
 		&--slide
 			width: auto
-			max-width: 246px
+			max-width: 220px
+
+			@media (min-width: 376px)
+				max-width: 246px
+
 
 			img
 				border-radius: 22px

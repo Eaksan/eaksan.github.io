@@ -10,6 +10,19 @@ body
 	overflow-x: hidden
 	background-color: $color-bg
 
+::-webkit-scrollbar
+	display: none
+
+::-webkit-scrollbar-track
+	display: none
+
+::-webkit-scrollbar-track-piece
+	display: none
+
+::-webkit-scrollbar-thumb
+	display: none
+	background-color: red
+
 .img-responsive
 	display: block
 	max-width: 100%
@@ -414,6 +427,12 @@ a
 			margin-top: -12px
 			color: $color-gray
 
+	&__container
+		margin: 0 -20px
+
+	&__wrapper
+		margin: 0 20px
+
 .appstore-rating
 	&__charts-description
 		flex-basis: 100%
@@ -454,6 +473,7 @@ a
 	background-color: #f2f2f7
 	border-radius: 8px
 	padding: 15px 20px
+	width: calc(100vw - 40px)
 
 	&__header
 		display: flex
@@ -466,8 +486,8 @@ a
 		&--header
 			font-weight: 700
 			color: #1a1a1a
-			flex-basis: calc(100% - 90px)
-			max-width: calc(100% - 90px)
+			flex-basis: 100%
+			max-width: 100%
 
 		&--edited
 			flex-basis: 90px

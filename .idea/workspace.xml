@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
+    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="New reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
@@ -86,7 +104,7 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="26995000" />
+      <workItem from="1602069465652" duration="30573000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -144,11 +162,29 @@
       <option name="project" value="LOCAL" />
       <updated>1602143699888</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="App-info to svg">
+      <created>1602144695254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602144695254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loona ready" />
@@ -159,33 +195,34 @@
     <MESSAGE value="Add rounded font" />
     <MESSAGE value="New developer icon" />
     <MESSAGE value="Head carousel color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Head carousel color" />
+    <MESSAGE value="App-info to svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="App-info to svg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602143699789">
+    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602150226768">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602143699789" />
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602118018789">
+    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602150226768" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602147539812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018789" />
-    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1602118018788">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1602147539812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018788" />
-    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1602118018787">
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1602147539811">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018787" />
-    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1602118018788">
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539811" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1602147539812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018788" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602143701444">
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602144697275">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602143701444" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602144697275" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1602143494531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -4,6 +4,11 @@
         spaceBetween: 10,
     })
 
+    const reviewGallery = new Swiper('.appstore-reviews__container', {
+        slidesPerView: 'auto',
+        spaceBetween: 20
+    })
+
     const appstoreTexts = document.querySelectorAll('.appstore-section-text');
 
     appstoreTexts.forEach((item, i) => {

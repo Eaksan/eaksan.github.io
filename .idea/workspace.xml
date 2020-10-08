@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
@@ -101,7 +100,7 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="33452000" />
+      <workItem from="1602069465652" duration="33888000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -180,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602157922039</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New info svg">
+      <created>1602158912676</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602158912676</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,13 +215,14 @@
     <MESSAGE value="App-info to svg" />
     <MESSAGE value="New reviews carousel" />
     <MESSAGE value="Dark theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dark theme" />
+    <MESSAGE value="New info svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="New info svg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602157921905">
+    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602158912534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602157921905" />
+    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602158912534" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602147539812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -232,10 +239,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602157923984">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602158917985">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602157923984" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602158917985" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1602143494531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

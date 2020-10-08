@@ -43,5 +43,12 @@
         return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
     }
 
+    const appstoreHeadRates = document.querySelector('.appstore-head__rate--slide');
+
+     if (window.navigator.userAgent.indexOf('OS 14') > -1) {
+         appstoreHeadRates.classList.add('ios14');
+     } else {
+         appstoreHeadRates.classList.add('ios13');
+     }
 
 }()

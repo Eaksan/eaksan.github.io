@@ -292,13 +292,10 @@ a
 				&:hover
 					color: #fff
 
-
 	&__rate
 		color: $color-gray
 		margin: 0 -20px
 		overflow: auto
-
-		&--wrapper
 
 		&--slide
 			min-width: 107px
@@ -308,10 +305,25 @@ a
 				.appstore-head__rate--box:after
 					content: none
 
+			&.ios13
+				.appstore-head__rate--box-ios14
+					display: none
+
+				.appstore-head__rate--box-ios13
+					opacity: 1
+
+			&.ios14
+				.appstore-head__rate--box-ios13
+					display: none
+
+				.appstore-head__rate--box-ios14
+					opacity: 1
+
 		&--box
 			text-align: center
 			position: relative
 			margin-top: -12px
+			opacity: 0
 
 			&:after
 				position: absolute
@@ -339,10 +351,38 @@ a
 			&-bottom
 				font-size: 12px
 
+		&--box-ios13
+			padding: 15px 20px
+			overflow: auto
+			white-space: nowrap
+
+		&--item
+			display: inline-block
+			padding: 0 17px
+
+			&:first-child
+				padding-left: 0
+				text-align: left
+
+				.appstore-head__rate--item-top
+					font-size: 21px
+					letter-spacing: -1.5px
+
+			&:last-child
+				padding-right: 0
+
+			&-top
+				font-size: 21px
+				letter-spacing: 0.4px
+
+				.svg-icon
+					font-size: 18px
+
+			&-bot
+				font-size: 11px
+
 .appstore-whats-new
 	padding-top: 7px
-
-	&__header
 
 	&__version
 		display: flex
@@ -358,8 +398,6 @@ a
 		margin-top: 10px
 
 .appstore-screenshots
-	&__header
-
 	&__gallery
 		margin: 0 -20px
 		padding-top: 10px

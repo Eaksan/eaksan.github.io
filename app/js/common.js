@@ -4,10 +4,6 @@
         spaceBetween: 10,
     })
 
-    const appInfo = new Swiper('.appstore-head__rate', {
-        slidesPerView: 'auto'
-    })
-
     const appstoreTexts = document.querySelectorAll('.appstore-section-text');
 
     appstoreTexts.forEach((item, i) => {

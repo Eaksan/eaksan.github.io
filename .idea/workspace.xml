@@ -4,6 +4,10 @@
     <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +86,7 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="26183000" />
+      <workItem from="1602069465652" duration="26995000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -133,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602143046428</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Head carousel color">
+      <created>1602143699888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602143699888</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,13 +158,14 @@
     <MESSAGE value="Change gray colors" />
     <MESSAGE value="Add rounded font" />
     <MESSAGE value="New developer icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="New developer icon" />
+    <MESSAGE value="Head carousel color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Head carousel color" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602143046310">
+    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602143699789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602143046310" />
+    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602143699789" />
     <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602118018789">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -170,10 +182,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602118018788" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602142737510">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602143701444">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602142737510" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602143701444" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1602143494531">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

@@ -50,5 +50,4 @@
      } else {
          appstoreHeadRates.classList.add('ios13');
      }
-
 }()

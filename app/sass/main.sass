@@ -123,13 +123,13 @@ a
 				top: 0
 				bottom: 0
 				width: 30px
-				background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff)
+				background: linear-gradient(90deg,rgba(#fff,0),#fff)
 
 			@media (prefers-color-scheme: dark)
 				background-color: #000
 
 				&:before
-					background: linear-gradient(90deg,hsla(0,0%,100%,0),#000)
+					background: linear-gradient(90deg,rgba(#000,0),#000)
 		&.opening
 			overflow: hidden
 
@@ -593,7 +593,8 @@ a
 			background-color: #1c1d1f
 
 			&:before
-				background: linear-gradient(90deg,rgba(#f2f2f7, 0),#1c1d1f)
+				background: linear-gradient(90deg,rgba(#1c1d1f, 0),#1c1d1f)
+
 
 .appstore-information
 	border: none

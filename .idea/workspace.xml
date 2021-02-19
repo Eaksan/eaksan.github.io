@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="">
+    <list default="true" id="6a9db2e8-fbd2-4988-8825-d957547ef3d0" name="Default Changelist" comment="Fix more gradient">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
@@ -53,9 +53,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/js" />
     </key>
@@ -102,7 +106,12 @@
       <workItem from="1602013894100" duration="1945000" />
       <workItem from="1602015860857" duration="14266000" />
       <workItem from="1602069422899" duration="16000" />
-      <workItem from="1602069465652" duration="41870000" />
+      <workItem from="1602069465652" duration="42786000" />
+      <workItem from="1604489751849" duration="626000" />
+      <workItem from="1604674274908" duration="1920000" />
+      <workItem from="1604928535006" duration="628000" />
+      <workItem from="1612350684000" duration="4764000" />
+      <workItem from="1613744245603" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="loona ready">
       <created>1602117424926</created>
@@ -223,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602169866354</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix more gradient">
+      <created>1602192568785</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602192568786</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +255,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loona ready" />
@@ -257,44 +274,29 @@
     <MESSAGE value="Add ios13 block" />
     <MESSAGE value="Fix ios14 svg dark theme" />
     <MESSAGE value="Fix star colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix star colors" />
+    <MESSAGE value="Fix more gradient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix more gradient" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="388" y="100" key="CommitChangelistDialog2" timestamp="1602169866235">
+    <state width="1659" height="285" key="GridCell.Tab.0.bottom" timestamp="1613747961431">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="388" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602169866235" />
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1602147539812">
+    <state width="1659" height="285" key="GridCell.Tab.0.bottom/-122.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1613747961431" />
+    <state width="1659" height="285" key="GridCell.Tab.0.center" timestamp="1613747961430">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
-    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1602147539812">
+    <state width="1659" height="285" key="GridCell.Tab.0.center/-122.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1613747961430" />
+    <state width="1659" height="285" key="GridCell.Tab.0.left" timestamp="1613747961429">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
-    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1602147539811">
+    <state width="1659" height="285" key="GridCell.Tab.0.left/-122.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1613747961429" />
+    <state width="1659" height="285" key="GridCell.Tab.0.right" timestamp="1613747961431">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539811" />
-    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1602147539812">
+    <state width="1659" height="285" key="GridCell.Tab.0.right/-122.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1613747961431" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1613745494659">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602147539812" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1602169867707">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602169867707" />
-    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1602143494531">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="538" y="280" width="604" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602143494531" />
-    <state x="662" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602117316968">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="662" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602117316968" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1602142705868">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602142705868" />
+    <state x="349" y="175" key="SettingsEditor/-122.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1613745494659" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 var gulp          = require('gulp'),
 	babel 		  = require('gulp-babel'),
+	minify 		  = require("gulp-babel-minify"),
 	gutil         = require('gulp-util' ),
 	sass          = require('gulp-sass'),
 	browserSync   = require('browser-sync'),
@@ -40,23 +41,26 @@ gulp.task('styles', function() {
 // JS
 gulp.task('scripts', function() {
 	return gulp.src([
-		'node_modules/swiper/swiper-bundle.esm.browser.min.js',
-		'app/js/common.babel.js', // Always at the end
+		'app/libs/swiper/swiper-bundle.min.js',
+		'app/js/common.js', // Always at the end
 	],{'allowEmpty': true})
 		.pipe(concat('scripts.min.js'))
+		.pipe(minify({
+			mangle: {
+				keepClassName: true
+			}
+		}))
 		.pipe(gulp.dest('app/js'))
 		.pipe(browserSync.reload({ stream: true, ghostMode: false }))
 });
 
-gulp.task('scripts-babel', function() {
-	return gulp.src([
-		'app/js/common.js', // Always at the end
-	])
-		.pipe(concat('common.babel.js'))
-		.pipe(babel())
-		.pipe(uglify()) // Mifify js (opt.)
-		.pipe(gulp.dest('app/js'))
-});
+// gulp.task('scripts-babel', function() {
+// 	return gulp.src([
+// 		'app/js/common.js', // Always at the end
+// 	],{'allowEmpty': true})
+// 		.pipe(concat('common.babel.js'))
+// 		.pipe(gulp.dest('app/js'))
+// });
 
 // HTML Live Reload
 gulp.task('code', function() {
@@ -66,7 +70,7 @@ gulp.task('code', function() {
 
 gulp.task('watch', function() {
 	gulp.watch('app/sass/**/*.sass', gulp.parallel('styles'));
-	gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts-babel', 'scripts'));
+	gulp.watch(['libs/**/*.js', 'app/js/common.js'], gulp.parallel('scripts'));
 	gulp.watch('app/*.html', gulp.parallel('code'));
 });
-gulp.task('default', gulp.parallel('styles', 'scripts-babel', 'scripts', 'browser-sync', 'watch'));
+gulp.task('default', gulp.parallel('styles', 'scripts', 'browser-sync', 'watch'));
